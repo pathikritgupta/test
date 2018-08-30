@@ -1,8 +1,8 @@
 <script>
-    $Lightning.use("c:lightningOutAppGuest",    // name of the Lightning app
+    $Lightning.use("c:UserFormApplication",    // name of the Lightning app
         function() {                  // Callback once framework and app loaded
             $Lightning.createComponent(
-                "c:lightningOutCmp", // top-level component of your app
+                "c:UserForm", // top-level component of your app
                 { },                  // attributes to set on the component when created
                 "lightningLocator",   // the DOM location to insert the component
                 function(cmp) {
@@ -11,6 +11,6 @@
                 }
             );
         },
-        'https://head-in-the-clouds-developer-edition.ap5.force.com'  // Community endpoint
+        'https://vextrasolutions--dv2.cs16.my.salesforce.com/'  // SF endpoint
     );
 </script>
