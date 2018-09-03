@@ -4,5 +4,8 @@
   "repository": "https://github.com/tiaanswart/lighnting-out-heroku",
   "logo": "https://cdn.rawgit.com/tiaanswart/lighnting-out-heroku/master/public/node.svg",
   "keywords": ["node", "express", "heroku", "lightning-out"],
-  "image": "heroku/nodejs"
+  "image": "heroku/nodejs",
+  "env": {
+    "APP_ID": ""
+  }
 }
